@@ -1,0 +1,192 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+button:disabled,
+button[disabled]{
+		cursor:not-allowed
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+.btn-normalDarkGrey {
+	background-color: #525658;
+	border-color: #525658;
+	color: #F5F5F5;
+}
+
+.btn-normalDarkGrey:hover, .btn-normalDarkGrey:active, .btn-normalDarkGrey:visited, .btn-normalDarkGrey:focus {
+	background-color: #424547;
+	border-color: #424547;
+	color: #F5F5F5;
+}
+
+.btn-outline-normalDarkGrey {
+	border-color: #525658;
+	color: #525658;
+}
+
+.btn-outline-normalDarkGrey:hover,
+.btn-outline-normalDarkGrey:active,
+.btn-outline-normalDarkGrey:visited,
+.btn-outline-normalDarkGrey:focus {
+	border-color: #525658;
+	background-color: #525658;
+	color: #F5F5F5;
+}
+
+.countdown-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.countdown-item {
+/*	color: white;
+*/	font-size: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	line-height: 30px;
+	margin: 10px;
+	padding-top: 10px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+.countdown-item span {
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+.btn-normalLightBlue {
+	background-color: #5fc6ff;
+	border-color: #5fc6ff;
+	color: #585858;
+}
+
+.btn-normalLightBlue:hover, .btn-normalLightBlue:active, .btn-normalLightBlue:visited, .btn-normalLightBlue:focus {
+	background-color: #29B3FF;
+	border-color: #29B3FF;
+	color: #585858;
+}
+
+.btn-outline-normalLightBlue {
+	border-color: #5fc6ff;
+	color: #5fc6ff;
+}
+
+.btn-outline-normalLightBlue:hover,
+.btn-outline-normalLightBlue:active,
+.btn-outline-normalLightBlue:visited,
+.btn-outline-normalLightBlue:focus {
+	border-color: #5fc6ff;
+	background-color: #5fc6ff;
+	color: #585858;
+}
+
+/* Dropdown Menu */
+
+.navbar .dropdown:hover > .dropdown-menu {
+	display: block; /* this makes the dropdown menu stay open while hovering it */
+	min-width: auto;
+	animation: fadeDropdown 0.2s; /* required for the fade animation */
+}
+
+@keyframes fadeDropdown {
+		0% {
+				opacity: 0;
+		}
+
+		100% {
+				opacity: 1;
+		}
+}
+
+.navbar .dropdown-toggle {
+	cursor: pointer;
+}
+
+.navbar .dropdown-toggle:focus { 
+	outline: 0;
+}
+
+.navbar .dropdown-menu {
+	cursor: pointer;
+	margin-top: 0;
+	border: none;
+}
+
+.dropdownItem {
+	padding: 5px;
+	display: block;
+	width: 100%;
+	padding: .25rem 1.5rem;
+	clear: both;
+	text-align: inherit;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 0;
+}
+
+.dropdown-divider {
+	width: 100%;
+	height: 1px;
+	border: none;
+}
+
+.dropdown-menu li {
+	position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+	right: 100%;
+	left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+	display: block;
+}
+
+.dropdownItemTextBoldHover:hover {
+	font-weight: bold
+}
+
+.dropdownItemTextUnderHover:hover {
+	text-decoration:	underline
+}
+
+.dropdownItemDivHoverLighter:hover {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2) 0 0);
+}
+
+.dropdownItemDivHoverDarker:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+}
